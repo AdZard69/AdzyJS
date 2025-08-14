@@ -83,7 +83,7 @@ yarn add adzyjs three @react-three/fiber @react-three/drei
 #### Prepare Your Model
 To use the `<Player />` component, you must first prepare your model file:
 
-1. **Download <a> /model.gltf </a> a GLTF file** – This is the 3D model that will be used by the component.  
+1. **Download [`model.gltf`](./public/model.gltf)** – This is the 3D model that will be used by the component. 
 2. **Place the file in your project** – Put the downloaded `.gltf` file inside your `/public` folder.  
 3. **Rename the file** – The file **must** be named `model.gltf` for the component to find it automatically.  
 

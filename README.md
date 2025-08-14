@@ -11,13 +11,15 @@
 <p align="center">
 <a href="https://www.npmjs.com/package/adzyjs">
 <img src="https://img.shields.io/npm/v/adzyjs.svg?style=for-the-badge&logo=npm" alt="NPM Version">
-<!-- </a>
+</a>
+<!-- 
 <a href="https://github.com/your-username/adzyjs/blob/main/LICENSE">
 <img src="https://img.shields.io/npm/l/adzyjs.svg?style=for-the-badge" alt="License">
 </a>
 <a href="#-contributing">
 <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome">
-</a> -->
+</a> 
+-->
 </p>
 
 ---
@@ -78,6 +80,14 @@ yarn add adzyjs three @react-three/fiber @react-three/drei
 
 ### 2️⃣ Usage
 
+#### Prepare Your Model
+To use the `<Player />` component, you must first prepare your model file:
+
+1. **Download a GLTF file** – This is the 3D model that will be used by the component.  
+2. **Place the file in your project** – Put the downloaded `.gltf` file inside your `/public` folder.  
+3. **Rename the file** – The file **must** be named `model.gltf` for the component to find it automatically.  
+
+#### Example Code
 ```jsx
 import React from 'react';
 import { Canvas } from '@react-three/fiber';
@@ -86,12 +96,16 @@ import { Player } from 'adzyjs';
 
 function App() {
   return (
-   <Player
-      w="100vw"
-      h="100vh"
-      skinUrl="/my-custom-skin.png"
-      color1="#111827"
-      color2="#4b5563"/>
+   <Canvas>
+      <OrbitControls />
+      <Player
+        w="100vw"
+        h="100vh"
+        skinUrl="/my-custom-skin.png"
+        color1="#111827"
+        color2="#4b5563"
+      />
+   </Canvas>
   );
 }
 

@@ -11,13 +11,13 @@
 <p align="center">
 <a href="https://www.npmjs.com/package/adzyjs">
 <img src="https://img.shields.io/npm/v/adzyjs.svg?style=for-the-badge&logo=npm" alt="NPM Version">
-</a>
+<!-- </a>
 <a href="https://github.com/your-username/adzyjs/blob/main/LICENSE">
 <img src="https://img.shields.io/npm/l/adzyjs.svg?style=for-the-badge" alt="License">
 </a>
 <a href="#-contributing">
 <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome">
-</a>
+</a> -->
 </p>
 
 ---

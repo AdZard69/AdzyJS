@@ -96,8 +96,6 @@ import { Player } from 'adzyjs';
 
 function App() {
   return (
-   <Canvas>
-      <OrbitControls />
       <Player
         w="100vw"
         h="100vh"
@@ -105,7 +103,6 @@ function App() {
         color1="#111827"
         color2="#4b5563"
       />
-   </Canvas>
   );
 }
 
